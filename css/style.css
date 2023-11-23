@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+#contenedorForm{
+    display: none;
+}
+
+#contenedorForm.activo{
+    display: block;
+}
